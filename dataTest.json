@@ -1,0 +1,2380 @@
+[
+    {
+        "URL": "http://www.amazon.com/dp/B07DB52SSX", 
+        "ASIN": "B07DB52SSX", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07H4H35W2", 
+        "ASIN": "B07H4H35W2", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B071HY84Z1", 
+        "ASIN": "B071HY84Z1", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KQTNXMK", 
+        "ASIN": "B07KQTNXMK", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JGNFMWV", 
+        "ASIN": "B07JGNFMWV", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07F435RMX", 
+        "ASIN": "B07F435RMX", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07HCMJJFM", 
+        "ASIN": "B07HCMJJFM", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07L3XBR5N", 
+        "ASIN": "B07L3XBR5N", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07MRK6KLF", 
+        "ASIN": "B07MRK6KLF", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07L9MZCJ4", 
+        "ASIN": "B07L9MZCJ4", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07MLQ9DHH", 
+        "ASIN": "B07MLQ9DHH", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07F2JRQ57", 
+        "ASIN": "B07F2JRQ57", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KCB5CSD", 
+        "ASIN": "B07KCB5CSD", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Product Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07L6RWVK6", 
+        "ASIN": "B07L6RWVK6", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KBVH5NC", 
+        "ASIN": "B07KBVH5NC", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07MP49SSY", 
+        "ASIN": "B07MP49SSY", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B072K3CMNR", 
+        "ASIN": "B072K3CMNR", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JFFLG44", 
+        "ASIN": "B07JFFLG44", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B074J5ZZB8", 
+        "ASIN": "B074J5ZZB8", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07G1V3M75", 
+        "ASIN": "B07G1V3M75", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Package Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07M785RGM", 
+        "ASIN": "B07M785RGM", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B072LVTJS5", 
+        "ASIN": "B072LVTJS5", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KCPW6D7", 
+        "ASIN": "B07KCPW6D7", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KG62LYV", 
+        "ASIN": "B07KG62LYV", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B003S0F0O0", 
+        "ASIN": "B003S0F0O0", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07147XNX3", 
+        "ASIN": "B07147XNX3", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07BHZF3HW", 
+        "ASIN": "B07BHZF3HW", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Package Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B079XZBT6N", 
+        "ASIN": "B079XZBT6N", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KNLQNFY", 
+        "ASIN": "B07KNLQNFY", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07J1G2GFM", 
+        "ASIN": "B07J1G2GFM", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B078XQ4HY1", 
+        "ASIN": "B078XQ4HY1", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JHMLYP3", 
+        "ASIN": "B07JHMLYP3", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Package Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B01IRL4QBM", 
+        "ASIN": "B01IRL4QBM", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B01CC5P4Z6", 
+        "ASIN": "B01CC5P4Z6", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07BPBSRYY", 
+        "ASIN": "B07BPBSRYY", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JRH23L6", 
+        "ASIN": "B07JRH23L6", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07H31DPQ3", 
+        "ASIN": "B07H31DPQ3", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07G9PYYDY", 
+        "ASIN": "B07G9PYYDY", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07MM7TSZR", 
+        "ASIN": "B07MM7TSZR", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B072LDX543", 
+        "ASIN": "B072LDX543", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KNHTRKJ", 
+        "ASIN": "B07KNHTRKJ", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JN78M72", 
+        "ASIN": "B07JN78M72", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07MLMKPDJ", 
+        "ASIN": "B07MLMKPDJ", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07B6NR32Y", 
+        "ASIN": "B07B6NR32Y", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07F7XCQMD", 
+        "ASIN": "B07F7XCQMD", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JYVHQ6M", 
+        "ASIN": "B07JYVHQ6M", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07BRQRG33", 
+        "ASIN": "B07BRQRG33", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B0091VMRNM", 
+        "ASIN": "B0091VMRNM", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Product Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07MS1GT8W", 
+        "ASIN": "B07MS1GT8W", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07GT792CK", 
+        "ASIN": "B07GT792CK", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Package Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JVYMZGD", 
+        "ASIN": "B07JVYMZGD", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Package Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07C2VS17P", 
+        "ASIN": "B07C2VS17P", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B014V6XZ0K", 
+        "ASIN": "B014V6XZ0K", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07FXX11JG", 
+        "ASIN": "B07FXX11JG", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B079BGCCVH", 
+        "ASIN": "B079BGCCVH", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07J1CDRFX", 
+        "ASIN": "B07J1CDRFX", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JR62LLX", 
+        "ASIN": "B07JR62LLX", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JC2XMTW", 
+        "ASIN": "B07JC2XMTW", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07K629VWL", 
+        "ASIN": "B07K629VWL", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07LB6MKJS", 
+        "ASIN": "B07LB6MKJS", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KVML7WQ", 
+        "ASIN": "B07KVML7WQ", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07HT6DZ96", 
+        "ASIN": "B07HT6DZ96", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07HHWJJ93", 
+        "ASIN": "B07HHWJJ93", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Package Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07D5J2VS6", 
+        "ASIN": "B07D5J2VS6", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B01GATPGVW", 
+        "ASIN": "B01GATPGVW", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07J1RSLC9", 
+        "ASIN": "B07J1RSLC9", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07HXXR4GJ", 
+        "ASIN": "B07HXXR4GJ", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07MGDF743", 
+        "ASIN": "B07MGDF743", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07FQRQJ4N", 
+        "ASIN": "B07FQRQJ4N", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07J1DDSYR", 
+        "ASIN": "B07J1DDSYR", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B077N6XTZS", 
+        "ASIN": "B077N6XTZS", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B079JXNM9W", 
+        "ASIN": "B079JXNM9W", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KSJBGMB", 
+        "ASIN": "B07KSJBGMB", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07L1RBGHB", 
+        "ASIN": "B07L1RBGHB", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B019AZH5QC", 
+        "ASIN": "B019AZH5QC", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B01I6P8U0W", 
+        "ASIN": "B01I6P8U0W", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07J4XJBZF", 
+        "ASIN": "B07J4XJBZF", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B0725B3WT8", 
+        "ASIN": "B0725B3WT8", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07HKZYCFB", 
+        "ASIN": "B07HKZYCFB", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JM36JMX", 
+        "ASIN": "B07JM36JMX", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B01NB0LXFO", 
+        "ASIN": "B01NB0LXFO", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07J1Z396X", 
+        "ASIN": "B07J1Z396X", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B01MZYQ6G1", 
+        "ASIN": "B01MZYQ6G1", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07DCMLZ96", 
+        "ASIN": "B07DCMLZ96", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07J355YWS", 
+        "ASIN": "B07J355YWS", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07HCT65SQ", 
+        "ASIN": "B07HCT65SQ", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07H53TW1G", 
+        "ASIN": "B07H53TW1G", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07L6DZ396", 
+        "ASIN": "B07L6DZ396", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B079N9K36H", 
+        "ASIN": "B079N9K36H", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07L38PSHH", 
+        "ASIN": "B07L38PSHH", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07MDHWN8H", 
+        "ASIN": "B07MDHWN8H", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07J3GZG6T", 
+        "ASIN": "B07J3GZG6T", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07J4QFB5H", 
+        "ASIN": "B07J4QFB5H", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B079G9KPTL", 
+        "ASIN": "B079G9KPTL", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07LD3VP26", 
+        "ASIN": "B07LD3VP26", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KFRSYHC", 
+        "ASIN": "B07KFRSYHC", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07LDJ3TKC", 
+        "ASIN": "B07LDJ3TKC", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Product Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B00OW8EJ2Q", 
+        "ASIN": "B00OW8EJ2Q", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B06XGZW8DD", 
+        "ASIN": "B06XGZW8DD", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KWMMW7C", 
+        "ASIN": "B07KWMMW7C", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B01NC39FLI", 
+        "ASIN": "B01NC39FLI", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07HYYQ4DG", 
+        "ASIN": "B07HYYQ4DG", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07HF7LQXT", 
+        "ASIN": "B07HF7LQXT", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B01IJZBX08", 
+        "ASIN": "B01IJZBX08", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07HNLC6YB", 
+        "ASIN": "B07HNLC6YB", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Package Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JWHWV3C", 
+        "ASIN": "B07JWHWV3C", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KK15QQ3", 
+        "ASIN": "B07KK15QQ3", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07CSZ97RT", 
+        "ASIN": "B07CSZ97RT", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Product Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B0778LWQLY", 
+        "ASIN": "B0778LWQLY", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B079C94J13", 
+        "ASIN": "B079C94J13", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07DM9TK8D", 
+        "ASIN": "B07DM9TK8D", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B01N22QKU0", 
+        "ASIN": "B01N22QKU0", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07J5NP518", 
+        "ASIN": "B07J5NP518", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Product Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B0777KMDFH", 
+        "ASIN": "B0777KMDFH", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B01LLXH9BC", 
+        "ASIN": "B01LLXH9BC", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B079BGBJ3W", 
+        "ASIN": "B079BGBJ3W", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07J146889", 
+        "ASIN": "B07J146889", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KTDPDWG", 
+        "ASIN": "B07KTDPDWG", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Package Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B06XR9DJ2S", 
+        "ASIN": "B06XR9DJ2S", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07FLTCMM4", 
+        "ASIN": "B07FLTCMM4", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": []
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B071CDBFTN", 
+        "ASIN": "B071CDBFTN", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KY63NQ7", 
+        "ASIN": "B07KY63NQ7", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07BTLT3W6", 
+        "ASIN": "B07BTLT3W6", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B01IJZCASC", 
+        "ASIN": "B01IJZCASC", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KV5B4MF", 
+        "ASIN": "B07KV5B4MF", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Package Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07GKZKCF1", 
+        "ASIN": "B07GKZKCF1", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Package Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KCQ5XMF", 
+        "ASIN": "B07KCQ5XMF", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B077WM7TSB", 
+        "ASIN": "B077WM7TSB", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B06XRQX1VQ", 
+        "ASIN": "B06XRQX1VQ", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B078YM435G", 
+        "ASIN": "B078YM435G", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07HYFH8FP", 
+        "ASIN": "B07HYFH8FP", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B077J7G2LR", 
+        "ASIN": "B077J7G2LR", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B00KCXSONK", 
+        "ASIN": "B00KCXSONK", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B071R3K74G", 
+        "ASIN": "B071R3K74G", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B01MTG3NWH", 
+        "ASIN": "B01MTG3NWH", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Package Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07K8YF4T3", 
+        "ASIN": "B07K8YF4T3", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B00MYZN8DA", 
+        "ASIN": "B00MYZN8DA", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B01MQH59GN", 
+        "ASIN": "B01MQH59GN", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B073HS19RB", 
+        "ASIN": "B073HS19RB", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B079QNWC92", 
+        "ASIN": "B079QNWC92", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07LB22HC9", 
+        "ASIN": "B07LB22HC9", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Product Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07MDSJVQ2", 
+        "ASIN": "B07MDSJVQ2", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07DS1HQTG", 
+        "ASIN": "B07DS1HQTG", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B073FYYT27", 
+        "ASIN": "B073FYYT27", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07LDJRTMC", 
+        "ASIN": "B07LDJRTMC", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Product Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KCCZPPV", 
+        "ASIN": "B07KCCZPPV", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Product Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07FZQM6GD", 
+        "ASIN": "B07FZQM6GD", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KWQLK9S", 
+        "ASIN": "B07KWQLK9S", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KY48PQL", 
+        "ASIN": "B07KY48PQL", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07FPWGR51", 
+        "ASIN": "B07FPWGR51", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B06WLGD9ZK", 
+        "ASIN": "B06WLGD9ZK", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07H16Q3T1", 
+        "ASIN": "B07H16Q3T1", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07K53SL8G", 
+        "ASIN": "B07K53SL8G", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KVLM3DR", 
+        "ASIN": "B07KVLM3DR", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07L4FK7ZG", 
+        "ASIN": "B07L4FK7ZG", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JKL76F6", 
+        "ASIN": "B07JKL76F6", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07HNZKZ6Y", 
+        "ASIN": "B07HNZKZ6Y", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07D1SR3WC", 
+        "ASIN": "B07D1SR3WC", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07D6G99GQ", 
+        "ASIN": "B07D6G99GQ", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B01MZECHVA", 
+        "ASIN": "B01MZECHVA", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07MHYBP1J", 
+        "ASIN": "B07MHYBP1J", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B00WUSXWAK", 
+        "ASIN": "B00WUSXWAK", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JZHL6JL", 
+        "ASIN": "B07JZHL6JL", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07HCV1DN4", 
+        "ASIN": "B07HCV1DN4", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B079H46ZN9", 
+        "ASIN": "B079H46ZN9", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B074ZS52HS", 
+        "ASIN": "B074ZS52HS", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07BHHNZ3R", 
+        "ASIN": "B07BHHNZ3R", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KW6BYDV", 
+        "ASIN": "B07KW6BYDV", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JW4QLS4", 
+        "ASIN": "B07JW4QLS4", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JP28PY6", 
+        "ASIN": "B07JP28PY6", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07J4ZKBKD", 
+        "ASIN": "B07J4ZKBKD", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07K1MLV2V", 
+        "ASIN": "B07K1MLV2V", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Product Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07MLKWNB3", 
+        "ASIN": "B07MLKWNB3", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Package Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B0198MKLMM", 
+        "ASIN": "B0198MKLMM", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Package Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B0198JUNT6", 
+        "ASIN": "B0198JUNT6", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07D8PH5MM", 
+        "ASIN": "B07D8PH5MM", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07HYCFW97", 
+        "ASIN": "B07HYCFW97", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Product Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07L26VJFJ", 
+        "ASIN": "B07L26VJFJ", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B01M34GOTM", 
+        "ASIN": "B01M34GOTM", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B079J6MJ82", 
+        "ASIN": "B079J6MJ82", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B01FIIRQ96", 
+        "ASIN": "B01FIIRQ96", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07C5BBMT3", 
+        "ASIN": "B07C5BBMT3", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B074F51T82", 
+        "ASIN": "B074F51T82", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JB2DNW9", 
+        "ASIN": "B07JB2DNW9", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07GSJF8PQ", 
+        "ASIN": "B07GSJF8PQ", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07H4HQ6VX", 
+        "ASIN": "B07H4HQ6VX", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07645WFMF", 
+        "ASIN": "B07645WFMF", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07F2SN43F", 
+        "ASIN": "B07F2SN43F", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KWZ7HPF", 
+        "ASIN": "B07KWZ7HPF", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B075SPW942", 
+        "ASIN": "B075SPW942", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07K7NRTMZ", 
+        "ASIN": "B07K7NRTMZ", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07GJXCW29", 
+        "ASIN": "B07GJXCW29", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B01MTRXJZJ", 
+        "ASIN": "B01MTRXJZJ", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07H179VLZ", 
+        "ASIN": "B07H179VLZ", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07K19TDMD", 
+        "ASIN": "B07K19TDMD", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07FPVC839", 
+        "ASIN": "B07FPVC839", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B01MXTU1WS", 
+        "ASIN": "B01MXTU1WS", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07J58HGQV", 
+        "ASIN": "B07J58HGQV", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07DW6ZKN2", 
+        "ASIN": "B07DW6ZKN2", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07DCB3H6M", 
+        "ASIN": "B07DCB3H6M", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KGCGMTV", 
+        "ASIN": "B07KGCGMTV", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07FTJZVQ3", 
+        "ASIN": "B07FTJZVQ3", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07MC57SF8", 
+        "ASIN": "B07MC57SF8", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07L9FGDW9", 
+        "ASIN": "B07L9FGDW9", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07G5KT5DG", 
+        "ASIN": "B07G5KT5DG", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07BGTH3C5", 
+        "ASIN": "B07BGTH3C5", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07MNK9Y55", 
+        "ASIN": "B07MNK9Y55", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07M64DQ9D", 
+        "ASIN": "B07M64DQ9D", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07BVPZPRG", 
+        "ASIN": "B07BVPZPRG", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B0721S73W8", 
+        "ASIN": "B0721S73W8", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Package Dimensions:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JZC34GJ", 
+        "ASIN": "B07JZC34GJ", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B00AQIF5W4", 
+        "ASIN": "B00AQIF5W4", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07CGHYS9N", 
+        "ASIN": "B07CGHYS9N", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07MN5RJBJ", 
+        "ASIN": "B07MN5RJBJ", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JMVH3DP", 
+        "ASIN": "B07JMVH3DP", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07L1TPV5X", 
+        "ASIN": "B07L1TPV5X", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07MHDB5TT", 
+        "ASIN": "B07MHDB5TT", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07F3GXMBX", 
+        "ASIN": "B07F3GXMBX", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07C291VXW", 
+        "ASIN": "B07C291VXW", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9141.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JC2XMTW", 
+        "ASIN": "B07JC2XMTW", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07MNBNY5C", 
+        "ASIN": "B07MNBNY5C", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B079YZYX7J", 
+        "ASIN": "B079YZYX7J", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JVDNG86", 
+        "ASIN": "B07JVDNG86", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07FQRQJ4N", 
+        "ASIN": "B07FQRQJ4N", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9991.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07JGSZSX7", 
+        "ASIN": "B07JGSZSX7", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07CR72133", 
+        "ASIN": "B07CR72133", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B079ST4R6J", 
+        "ASIN": "B079ST4R6J", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.4241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B06VV1PCBF", 
+        "ASIN": "B06VV1PCBF", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B01AKC97WO", 
+        "ASIN": "B01AKC97WO", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.9241.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07DMCGXJQ", 
+        "ASIN": "B07DMCGXJQ", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07D2HD56L", 
+        "ASIN": "B07D2HD56L", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07CTPDHRD", 
+        "ASIN": "B07CTPDHRD", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07CWHQ8GD", 
+        "ASIN": "B07CWHQ8GD", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07CGRYFNK", 
+        "ASIN": "B07CGRYFNK", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07FFFHR7R", 
+        "ASIN": "B07FFFHR7R", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B07KXWYN4D", 
+        "ASIN": "B07KXWYN4D", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Weight:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B01GSMR77M", 
+        "ASIN": "B01GSMR77M", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }, 
+    {
+        "URL": "http://www.amazon.com/dp/B077WS9XZW", 
+        "ASIN": "B077WS9XZW", 
+        "head": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2221.90 Safari/537.36"
+        }, 
+        "NAME": [
+            "Shipping Information:\n                    "
+        ]
+    }
+]
