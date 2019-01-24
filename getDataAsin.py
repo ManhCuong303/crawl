@@ -35,7 +35,7 @@ def ReadAsin(dataAsins):
                 try:
                     doc = html.fromstring(page.content)
 
-                    XPATH_NAME = '//*[@id="detailBullets_feature_div"]/ul/li'
+                    XPATH_NAME = '//*[@id="detailBullets_feature_div"]'
                     # XPATH_SALE_PRICE = '//span[contains(@id,"ourprice") or contains(@id,"saleprice")]/text()'
                     # XPATH_ORIGINAL_PRICE = '//td[contains(text(),"List Price") or contains(text(),"M.R.P") or contains(text(),"Price")]/following-sibling::td/text()'
                     # XPATH_CATEGORY = '//a[@class="a-link-normal a-color-tertiary"]//text()'
@@ -60,6 +60,11 @@ def ReadAsin(dataAsins):
                         print 'URL', url
                         raise ValueError('captha')
                     RAW_NAME_cache =''
+
+                    if len(RAW_NAME) == 0:
+                        RAW_NAME = doc.xpath('//*[@id="detail-bullets"]/table/tr/td/div/ul/li[2]')
+
+
                     for article in RAW_NAME:
                         RAW_NAME_cache = RAW_NAME_cache + etree.tostring(article, pretty_print=True)
 
@@ -78,7 +83,9 @@ def ReadAsin(dataAsins):
                     }
                     extracted_data.append(data)
                     # for article in RAW_NAME:
-                    print '===done===',i,RAW_NAME
+                    print '===done===',i,RAW_NAME,len(RAW_NAME)
+
+
                     tim += 1
                 except Exception as e:
                     print 'xx',e,i
