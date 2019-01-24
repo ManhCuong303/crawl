@@ -1,0 +1,692 @@
+[
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=121&qid=1547780533&ref=lp_1045624_pg_121", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB) AppleWebKit/534.1 (KHTML, like Gecko) Chrome/6.0.428.0 Safari/534.1"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://46.107.226.220:53281"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=1&qid=1547780533&ref=lp_1045624_pg_1", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36"
+        }, 
+        "status": "dataAsin = 0, capcha", 
+        "proxy": {
+            "https": "https://62.89.31.55:59256"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=122&qid=1547780533&ref=lp_1045624_pg_122", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.1 Safari/537.36"
+        }, 
+        "status": "dataAsin = 0, capcha", 
+        "proxy": {
+            "https": "https://169.239.46.73:32231"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=80&qid=1547780533&ref=lp_1045624_pg_80", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_7) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.803.0 Safari/535.1"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://178.62.193.217:3128"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=5&qid=1547780533&ref=lp_1045624_pg_5", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.20 Safari/535.1"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://190.128.225.14:3128"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=83&qid=1547780533&ref=lp_1045624_pg_83", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://183.88.48.104:8080"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=161&qid=1547780533&ref=lp_1045624_pg_161", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/18.6.872.0 Safari/535.2 UNTRUSTED/1.0 3gpp-gba UNTRUSTED/1.0"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://103.212.128.252:34215"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=84&qid=1547780533&ref=lp_1045624_pg_84", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_6) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.698.0 Safari/534.24"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://168.181.244.161:8080"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=129&qid=1547780533&ref=lp_1045624_pg_129", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; U; Linux x86_64; fr-FR) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.514.0 Safari/534.7"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://92.244.36.69:47150"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=162&qid=1547780533&ref=lp_1045624_pg_162", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.221.8 Safari/532.2"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://91.212.64.177:8080"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=163&qid=1547780533&ref=lp_1045624_pg_163", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1664.3 Safari/537.36"
+        }, 
+        "status": "dataAsin = 0, capcha", 
+        "proxy": {
+            "https": "https://202.29.212.213:443"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=49&qid=1547780533&ref=lp_1045624_pg_49", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.39 Safari/525.19"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://207.176.218.194:1337"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=130&qid=1547780533&ref=lp_1045624_pg_130", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 Slackware/13.37 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/12.0.742.91"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://43.250.124.98:9001"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=9&qid=1547780533&ref=lp_1045624_pg_9", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_8) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.66 Safari/535.11"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://195.137.223.51:41336"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=10&qid=1547780533&ref=lp_1045624_pg_10", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.9 (KHTML, like Gecko) Chrome/6.0.400.0 Safari/533.9"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://181.225.100.38:80"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=131&qid=1547780533&ref=lp_1045624_pg_131", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/528.8 (KHTML, like Gecko) Chrome/1.0.156.0 Safari/528.8"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://176.12.119.159:9999"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=166&qid=1547780533&ref=lp_1045624_pg_166", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.207.0 Safari/532.0"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://103.212.128.252:34215"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=52&qid=1547780533&ref=lp_1045624_pg_52", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.6 Safari/537.11"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://92.244.36.69:47150"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=167&qid=1547780533&ref=lp_1045624_pg_167", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.6 Safari/532.2"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://207.176.218.194:1337"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=92&qid=1547780533&ref=lp_1045624_pg_92", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.43 Safari/525.19"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://168.181.244.161:8080"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=54&qid=1547780533&ref=lp_1045624_pg_54", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.27 Safari/532.0"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://103.228.246.53:42515"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=13&qid=1547780533&ref=lp_1045624_pg_13", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.2117.157 Safari/537.36"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://178.62.193.217:3128"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=14&qid=1547780533&ref=lp_1045624_pg_14", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.724.100 Safari/534.30"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://217.20.176.77:32925"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=56&qid=1547780533&ref=lp_1045624_pg_56", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://187.111.113.253:8080"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=134&qid=1547780533&ref=lp_1045624_pg_134", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Ubuntu/11.04 Chromium/13.0.782.41 Chrome/13.0.782.41 Safari/535.1"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://117.74.125.192:8088"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=95&qid=1547780533&ref=lp_1045624_pg_95", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://78.29.14.201:39001"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=16&qid=1547780533&ref=lp_1045624_pg_16", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://103.228.246.53:42515"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=136&qid=1547780533&ref=lp_1045624_pg_136", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.16 SUSE/10.0.626.0 (KHTML, like Gecko) Chrome/10.0.626.0 Safari/534.16"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://207.176.218.194:1337"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=99&qid=1547780533&ref=lp_1045624_pg_99", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Ubuntu/10.10 Chromium/10.0.648.133 Chrome/10.0.648.133 Safari/534.16"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://182.253.141.4:8080"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=138&qid=1547780533&ref=lp_1045624_pg_138", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-US) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/11.0.655.0 Safari/534.17"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://103.212.128.252:34215"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=60&qid=1547780533&ref=lp_1045624_pg_60", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.2 Safari/532.0"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://51.255.28.62:53281"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=61&qid=1547780533&ref=lp_1045624_pg_61", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36"
+        }, 
+        "status": "dataAsin = 0, capcha", 
+        "proxy": {
+            "https": "https://36.82.220.111:8080"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=101&qid=1547780533&ref=lp_1045624_pg_101", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.209.0 Safari/532.0"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://103.106.101.10:45100"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=21&qid=1547780533&ref=lp_1045624_pg_21", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.201.1 Safari/532.0"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://36.82.220.111:8080"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=64&qid=1547780533&ref=lp_1045624_pg_64", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; U; CrOS i686 0.9.128; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.341 Safari/534.10"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://85.238.105.190:8181"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=140&qid=1547780533&ref=lp_1045624_pg_140", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.205.0 Safari/532.0"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://188.234.151.103:8080"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=181&qid=1547780533&ref=lp_1045624_pg_181", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; U; CrOS i686 0.9.128; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.552.341 Safari/534.10"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://128.199.70.108:8080"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=66&qid=1547780533&ref=lp_1045624_pg_66", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.29 Safari/525.13"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://103.212.128.252:34215"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=22&qid=1547780533&ref=lp_1045624_pg_22", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/0.2.151.0 Safari/525.19"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://117.74.125.192:8088"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=143&qid=1547780533&ref=lp_1045624_pg_143", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.2 Safari/532.0"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://128.199.70.108:8080"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=67&qid=1547780533&ref=lp_1045624_pg_67", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.221.6 Safari/532.2"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://81.198.66.44:40534"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=144&qid=1547780533&ref=lp_1045624_pg_144", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://81.198.66.44:40534"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=145&qid=1547780533&ref=lp_1045624_pg_145", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/18.6.872.0 Safari/535.2 UNTRUSTED/1.0 3gpp-gba UNTRUSTED/1.0"
+        }, 
+        "status": "dataAsin = 0, capcha", 
+        "proxy": {
+            "https": "https://169.239.46.73:32231"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=146&qid=1547780533&ref=lp_1045624_pg_146", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.3 Safari/533.2"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://103.106.101.10:45100"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=23&qid=1547780533&ref=lp_1045624_pg_23", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.43 Safari/525.19"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://46.107.226.220:53281"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=68&qid=1547780533&ref=lp_1045624_pg_68", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-US) AppleWebKit/534.1 (KHTML, like Gecko) Chrome/6.0.414.0 Safari/534.1"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://169.239.46.73:32231"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=187&qid=1547780533&ref=lp_1045624_pg_187", 
+        "headers": {
+            "User-Agent": "Chrome/15.0.860.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/15.0.860.0"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://188.234.151.103:8080"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=24&qid=1547780533&ref=lp_1045624_pg_24", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/528.8 (KHTML, like Gecko) Chrome/2.0.156.0 Safari/528.8"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://43.250.124.98:9001"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=110&qid=1547780533&ref=lp_1045624_pg_110", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.39 Safari/530.5"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://46.107.226.220:53281"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=190&qid=1547780533&ref=lp_1045624_pg_190", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.213.0 Safari/532.1"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://178.219.171.43:45637"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=150&qid=1547780533&ref=lp_1045624_pg_150", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/532.3 (KHTML, like Gecko) Chrome/4.0.224.2 Safari/532.3"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://131.0.62.193:8080"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=153&qid=1547780533&ref=lp_1045624_pg_153", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.207.0 Safari/532.0"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://77.37.142.203:53281"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=72&qid=1547780533&ref=lp_1045624_pg_72", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.634.0 Safari/534.16"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://92.244.36.69:47150"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=111&qid=1547780533&ref=lp_1045624_pg_111", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.16 Safari/537.36"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://103.228.246.53:42515"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=32&qid=1547780533&ref=lp_1045624_pg_32", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US) AppleWebKit/530.7 (KHTML, like Gecko) Chrome/2.0.175.0 Safari/530.7"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://188.234.151.103:8080"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=33&qid=1547780533&ref=lp_1045624_pg_33", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.209.0 Safari/532.0"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://43.225.186.82:23500"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=115&qid=1547780533&ref=lp_1045624_pg_115", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.219.6 Safari/532.1"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://131.0.62.193:8080"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=159&qid=1547780533&ref=lp_1045624_pg_159", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.463.0 Safari/534.3"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://207.176.218.194:1337"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=35&qid=1547780533&ref=lp_1045624_pg_35", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.66 Safari/535.11"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://92.244.36.69:47150"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=195&qid=1547780533&ref=lp_1045624_pg_195", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.215 Safari/535.1"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://81.163.41.213:41258"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=78&qid=1547780533&ref=lp_1045624_pg_78", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows  U  Windows NT 5.1  en-US) AppleWebKit/534.12 (KHTML, like Gecko) Chrome/9.0.583.0 Safari/534.12"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://160.0.197.8:8000"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=117&qid=1547780533&ref=lp_1045624_pg_117", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_0; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.206.1 Safari/532.0"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://43.245.140.194:53281"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=36&qid=1547780533&ref=lp_1045624_pg_36", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.0 Safari/530.5"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://117.74.125.192:8088"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=37&qid=1547780533&ref=lp_1045624_pg_37", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.24 Safari/532.0"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://186.5.41.74:31909"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=196&qid=1547780533&ref=lp_1045624_pg_196", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.3 Safari/532.0"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://46.107.226.220:53281"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=79&qid=1547780533&ref=lp_1045624_pg_79", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 6.1; ru-RU) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.11 Safari/534.16"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://188.234.151.103:8080"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=119&qid=1547780533&ref=lp_1045624_pg_119", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.1 (KHTML, like Gecko) Chrome/6.0.416.0 Safari/534.1"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://128.199.70.108:8080"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=38&qid=1547780533&ref=lp_1045624_pg_38", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_4) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://190.128.225.14:3128"
+        }
+    }, 
+    {
+        "url": "https://www.amazon.com/s?rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624&page=198&qid=1547780533&ref=lp_1045624_pg_198", 
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/0.3.154.6 Safari/525.19"
+        }, 
+        "status": "max time", 
+        "proxy": {
+            "https": "https://202.166.169.26:61972"
+        }
+    }
+]

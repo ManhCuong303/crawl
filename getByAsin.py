@@ -48,36 +48,32 @@ def getAsin(url):
                     print 'dataAsin', len(RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4)
                     if len(RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4) == 0:
                         print 'headers',headers,proxy,'------------',url
-                        fail_data.append({
+                        kap = {
                             'headers': headers,
                             'proxy': proxy,
                             'url': url,
-                            'status': 'dataAsin = 0, capcha',
-                        })
-                        print fail_data
+                            'status': "dataAsin = 0, capcha",
+                        }
+                        fail_data.append(kap)
+
                     return {
                         'dataAsin': RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
                     }
 
                 except Exception as e:
                     print 'not xpath',proxy,headers,e
-                    fail_data.append({
-                        'headers': headers,
-                        'proxy': proxy,
-                        'url': url,
-                        'status': e
 
-                    })
         else:
             print 'errer', url, headers
     except requests.exceptions.RequestException as e:  # This is the correct syntax
         print 'not page', '--', proxy, headers, e
-        fail_data.append({
-            'headers':headers,
-            'proxy':proxy,
-            'url':url,
-            'status': e
-        })
+        kap = {
+            'headers': headers,
+            'proxy': proxy,
+            'url': url,
+            'status': "max time",
+        }
+        fail_data.append(kap)
 
 def urlPage(num):
     for i in num:
@@ -93,46 +89,52 @@ if __name__ == "__main__":
     headers = random.choice(headers_list)
     proxy = random.choice(ip_list)
     print headers
-    page = requests.get(url, headers=headers,proxies=proxy,timeout=60)
-    doc = html.fromstring(page.content)
-    XPATH_NUMPAGE = '//*[@id="pagn"]/span[6]/text()'
-    RAW_NUMPAGE = doc.xpath(XPATH_NUMPAGE)
-    RAW_NUMPAGE = int(float(RAW_NUMPAGE[0]))
-    x = np.arange(RAW_NUMPAGE)
-    num = np.split(x,10)
+    try:
+        page = requests.get(url, headers=headers,proxies=proxy,timeout=60)
+
+        doc = html.fromstring(page.content)
+        XPATH_NUMPAGE = '//*[@id="pagn"]/span[6]/text()'
+        RAW_NUMPAGE = doc.xpath(XPATH_NUMPAGE)
+        RAW_NUMPAGE = int(float(RAW_NUMPAGE[0]))
+        x = np.arange(RAW_NUMPAGE)
+        num = np.split(x,10)
+        print num
+    except requests.exceptions.RequestException as e:  # This is the correct syntax
+        print 'not page 2222', '--', proxy, headers, e
+
     try:
         t1 = threading.Thread(target=urlPage, args=(num[0],))
         t2 = threading.Thread(target=urlPage, args=(num[1],))
         t3 = threading.Thread(target=urlPage, args=(num[2],))
         t4 = threading.Thread(target=urlPage, args=(num[3],))
         t5 = threading.Thread(target=urlPage, args=(num[4],))
-        t6 = threading.Thread(target=urlPage, args=(num[5],))
-        t7 = threading.Thread(target=urlPage, args=(num[6],))
-        t8 = threading.Thread(target=urlPage, args=(num[7],))
-        t9 = threading.Thread(target=urlPage, args=(num[8],))
-        t10 = threading.Thread(target=urlPage, args=(num[9],))
+        # t6 = threading.Thread(target=urlPage, args=(num[5],))
+        # t7 = threading.Thread(target=urlPage, args=(num[6],))
+        # t8 = threading.Thread(target=urlPage, args=(num[7],))
+        # t9 = threading.Thread(target=urlPage, args=(num[8],))
+        # t10 = threading.Thread(target=urlPage, args=(num[9],))
 
         t1.start()
         t2.start()
         t3.start()
         t4.start()
         t5.start()
-        t6.start()
-        t7.start()
-        t8.start()
-        t9.start()
-        t10.start()
+        # t6.start()
+        # t7.start()
+        # t8.start()
+        # t9.start()
+        # t10.start()
 
         t1.join()
         t2.join()
         t3.join()
         t4.join()
         t5.join()
-        t6.join()
-        t7.join()
-        t8.join()
-        t9.join()
-        t10.join()
+        # t6.join()
+        # t7.join()
+        # t8.join()
+        # t9.join()
+        # t10.join()
 
         f = open('data.json', 'w')
         json.dump(Asin_data, f, indent=4)
@@ -142,7 +144,7 @@ if __name__ == "__main__":
         json.dump(fail_data, f, indent=4)
         f.close()
         print 'DONE !'
-    except:
-        print ("error")
+    except requests.exceptions.RequestException as e:  # This is the correct syntax
+        print 'error', '--', proxy, headers, e
 
 
