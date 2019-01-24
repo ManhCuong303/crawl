@@ -207,7 +207,7 @@
             "B07DNFT8Y8"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": []
     }, 
@@ -577,7 +577,7 @@
             "B01111ON9U"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07F61NBVL", 
@@ -889,7 +889,7 @@
             "B071JZWH87"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B01M5ARBVB", 
@@ -1046,7 +1046,7 @@
             "B06X188634"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B074FYPJQV", 
@@ -1203,7 +1203,7 @@
             "B075M9N5CR"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07KQSPW8S", 
@@ -1308,9 +1308,9 @@
             "B07K1CD7ZM"
         ]
     }, 
-    null, 
-    null, 
-    null, 
+     
+     
+     
     {
         "dataAsin": [
             "B078YR2QQ4", 
@@ -1418,7 +1418,7 @@
             "B07HYHVKZ1"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07G1WF8SZ", 
@@ -1523,8 +1523,8 @@
             "B076VWX3KG"
         ]
     }, 
-    null, 
-    null, 
+     
+     
     {
         "dataAsin": [
             "B01I5WAP3G", 
@@ -1681,7 +1681,7 @@
             "B07H155PR5"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B00FXKJX32", 
@@ -1734,8 +1734,8 @@
             "B01N1UR548"
         ]
     }, 
-    null, 
-    null, 
+     
+     
     {
         "dataAsin": [
             "B07HQ4MPSH", 
@@ -1788,7 +1788,7 @@
             "B01DBQ01VM"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07JHGF7GM", 
@@ -2151,7 +2151,7 @@
             "B07DTXB5B5"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07C8CLZ6H", 
@@ -2255,7 +2255,7 @@
             "B07MJ5Q9K7"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B0169H0598", 
@@ -2308,8 +2308,8 @@
             "B07MNSNCKR"
         ]
     }, 
-    null, 
-    null, 
+     
+     
     {
         "dataAsin": [
             "B01MZABB7P", 
@@ -2517,7 +2517,7 @@
             "B017PB3YSG"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07MNG78SQ", 
@@ -2622,7 +2622,7 @@
             "B00D8HH9LU"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07D84KKPC", 
@@ -2675,7 +2675,7 @@
             "B076JKJ94N"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B0721KLC8P", 
@@ -2831,7 +2831,7 @@
             "B01FEYYY4Y"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07KDMV4JL", 
@@ -2988,7 +2988,7 @@
             "B07JN4VMC5"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07JMNTZTC", 
@@ -3196,7 +3196,7 @@
             "B07CVQVZH5"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07D58CF63", 
@@ -3457,9 +3457,9 @@
             "B07L2GGPQS"
         ]
     }, 
-    null, 
-    null, 
-    null, 
+     
+     
+     
     {
         "dataAsin": [
             "B07FTWXRXM", 
@@ -3671,7 +3671,7 @@
             "B07JNT5T9X"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07MD62MN5", 
@@ -3828,7 +3828,7 @@
             "B079FQSLRW"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07H76YC2X", 
@@ -4036,7 +4036,7 @@
             "B0797DPNQW"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B01DR3597K", 
@@ -4089,7 +4089,7 @@
             "B0184RUTJW"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B079G1YZDZ", 
@@ -4142,7 +4142,7 @@
             "B071YC3VVR"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07DKKM1JX", 
@@ -4299,7 +4299,7 @@
             "B0117XO18U"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07HF3MPF9", 
@@ -4352,8 +4352,8 @@
             "B07J2VG4FB"
         ]
     }, 
-    null, 
-    null, 
+     
+     
     {
         "dataAsin": [
             "B0748YDXHN", 
@@ -4458,7 +4458,7 @@
             "B07KQPXY23"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07GV173XP", 
@@ -4511,7 +4511,7 @@
             "B06Y16CJKL"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B01E20T75W", 
@@ -4671,7 +4671,7 @@
             "B01N6SYGVN"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B06XBYNZ3Z", 
@@ -4724,7 +4724,7 @@
             "B01MT8W3N9"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07J4H2J9P", 
@@ -4880,9 +4880,9 @@
             "B01N28NYZT"
         ]
     }, 
-    null, 
-    null, 
-    null, 
+     
+     
+     
     {
         "dataAsin": [
             "B00KBU93KC", 
@@ -5039,7 +5039,7 @@
             "B0797CNCMW"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B0719TDZX7", 
@@ -5144,7 +5144,7 @@
             "B07KRP23LP"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B01MT1RLJJ", 
@@ -5196,7 +5196,7 @@
             "B00IXXCP4K"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B077RDVZNL", 
@@ -5611,8 +5611,8 @@
             "B0053WVUNQ"
         ]
     }, 
-    null, 
-    null, 
+     
+     
     {
         "dataAsin": [
             "B077MT6Q53", 
@@ -5873,7 +5873,7 @@
             "B07MQSD951"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07CQ864NS", 
@@ -6030,7 +6030,7 @@
             "B07JLLB6F6"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07KV436P1", 
@@ -6342,7 +6342,7 @@
             "B07MJF9KYF"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07JKHLDCY", 
@@ -6499,7 +6499,7 @@
             "B0787P86JW"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B009AFX97C", 
@@ -6604,7 +6604,7 @@
             "B016P7KVJQ"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07MKGDQ2Z", 
@@ -6657,11 +6657,11 @@
             "B079Q5SRFW"
         ]
     }, 
-    null, 
-    null, 
-    null, 
-    null, 
-    null, 
+     
+     
+     
+     
+     
     {
         "dataAsin": [
             "B07JM195HN", 
@@ -6714,11 +6714,11 @@
             "B072FT7MP3"
         ]
     }, 
-    null, 
-    null, 
-    null, 
-    null, 
-    null, 
+     
+     
+     
+     
+     
     {
         "dataAsin": [
             "B07FC688WG", 
@@ -6821,7 +6821,7 @@
             "B07CXSFT6C"
         ]
     }, 
-    null, 
+     
     {
         "dataAsin": [
             "B07HHMFBKP", 
