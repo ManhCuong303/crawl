@@ -15,6 +15,7 @@ import re
 this = sys.modules[__name__] # this is now your current namespace
 extracted_data = []
 fail_getByAsin = []
+textC = 'ShippingWeight:,4.8'
 
 json_data = open('Chrome-user-agents.json').read()
 headers_list = json.loads(json_data)
@@ -23,91 +24,95 @@ ip_list = json.loads(ip_data)
 
 
 def ReadAsin(dataAsins):
-    tim = 0
+
     headers = random.choice(headers_list)
     proxy = random.choice(ip_list)
     for listAsin in dataAsins:
         x = listAsin['dataAsin']
         for i in x :
-            url = "http://www.amazon.com/dp/" + i
-            try:
-                page = requests.get(url, headers=headers, proxies=proxy, timeout=30)
-                try:
-                    doc = html.fromstring(page.content)
-
-                    XPATH_NAME = '//*[@id="detailBullets_feature_div"]'
-                    # XPATH_SALE_PRICE = '//span[contains(@id,"ourprice") or contains(@id,"saleprice")]/text()'
-                    # XPATH_ORIGINAL_PRICE = '//td[contains(text(),"List Price") or contains(text(),"M.R.P") or contains(text(),"Price")]/following-sibling::td/text()'
-                    # XPATH_CATEGORY = '//a[@class="a-link-normal a-color-tertiary"]//text()'
-                    # XPATH_AVAILABILITY = '//div[@id="availability"]//text()'
-                    #
-                    RAW_NAME = doc.xpath(XPATH_NAME)
-                    # RAW_SALE_PRICE = doc.xpath(XPATH_SALE_PRICE)
-                    # RAW_CATEGORY = doc.xpath(XPATH_CATEGORY)
-                    # RAW_ORIGINAL_PRICE = doc.xpath(XPATH_ORIGINAL_PRICE)
-                    # RAw_AVAILABILITY = doc.xpath(XPATH_AVAILABILITY)
-                    #
-                    # NAME = ' '.join(''.join(RAW_NAME).split()) if RAW_NAME else None
-                    # SALE_PRICE = ' '.join(''.join(RAW_SALE_PRICE).split()).strip() if RAW_SALE_PRICE else None
-                    # CATEGORY = ' > '.join([i.strip() for i in RAW_CATEGORY]) if RAW_CATEGORY else None
-                    # ORIGINAL_PRICE = ''.join(RAW_ORIGINAL_PRICE).strip() if RAW_ORIGINAL_PRICE else None
-                    # AVAILABILITY = ''.join(RAw_AVAILABILITY).strip() if RAw_AVAILABILITY else None
-                    #
-                    # if not ORIGINAL_PRICE:
-                    #     ORIGINAL_PRICE = SALE_PRICE
-
-                    if page.status_code != 200:
-                        print 'URL', url
-                        raise ValueError('captha')
-                    RAW_NAME_cache =''
-
-                    if len(RAW_NAME) == 0:
-                        RAW_NAME = doc.xpath('//*[@id="detail-bullets"]/table/tr/td/div/ul/li[2]')
+            reGetTitle(i)
 
 
-                    for article in RAW_NAME:
-                        RAW_NAME_cache = RAW_NAME_cache + etree.tostring(article, pretty_print=True)
+def getDataOk(html):
+    return 'ok'
 
-                    RAW_NAME = re.sub('<[^<]+?>', '', RAW_NAME_cache)
+def reGetTitle(i):
+    url = "http://www.amazon.com/dp/" + i
+    headers = random.choice(headers_list)
+    proxy = random.choice(ip_list)
+    try:
+        page = requests.get(url, headers=headers, proxies=proxy, timeout=30)
+        try:
+            doc = html.fromstring(page.content)
 
-                    RAW_NAME = RAW_NAME.replace(" ", "")
-
-                    RAW_NAME = re.sub('\n+',',',RAW_NAME)
-
-
-                    data = {
-                        'NAME': RAW_NAME,
-                        'head': headers,
-                        'URL': url,
-                        'ASIN': i
-                    }
-                    extracted_data.append(data)
-                    # for article in RAW_NAME:
-                    print '===done===',i,RAW_NAME,len(RAW_NAME)
+            XPATH_CHECK = '//*[@id="detailBullets_feature_div"]'
 
 
-                    tim += 1
-                except Exception as e:
-                    print 'xx',e,i
-                    kap = {
-                        'head': headers,
-                        'proxy': proxy,
-                        'url': url,
-                        'status': e,
-                    }
-                    fail_getByAsin.append(kap)
 
-            except requests.exceptions.RequestException as e:  # This is the correct syntax
-                print 'yy',headers,url,proxy,e
-                kap = {
-                    'proxy': proxy,
-                    'url': url,
-                    'status': "Cannot connect to proxy.",
+
+            RAW_CHECK = doc.xpath(XPATH_CHECK)
+
+
+
+            RAW_CHECK_cache = ''
+
+            # if not ORIGINAL_PRICE:
+            #     ORIGINAL_PRICE = SALE_PRICE
+
+            if len(RAW_CHECK) == 0:
+                RAW_CHECK = doc.xpath('//*[@id="detail-bullets"]')
+            for article in RAW_CHECK:
+                RAW_CHECK_cache = RAW_CHECK_cache + etree.tostring(article, pretty_print=True)
+
+            RAW_CHECK = re.sub('<[^<]+?>', '', RAW_CHECK_cache)
+            RAW_CHECK = RAW_CHECK.replace(" ", "")
+            RAW_CHECK = re.sub('\n+', ',', RAW_CHECK)
+
+            if RAW_CHECK.find('ShippingWeight') != -1:
+                XPATH_PRICE = '//*[@id="priceblock_ourprice"]/text()'
+                XPATH_BRAN = '//*[@id="bylineInfo"]/text()'
+                XPATH_NAME = '//h1[@id="title"]//text()'
+                XPATH_PRICE = '//*[@id="priceblock_ourprice"]'
+                XPATH_RANK = '//*[@id="SalesRank"]/text()'
+
+                RAW_PRICE = doc.xpath(XPATH_PRICE)
+                RAW_NAME = doc.xpath(XPATH_NAME)
+                RAW_NAME = ' '.join(''.join(RAW_NAME).split()) if RAW_NAME else None
+                RAW_RANK = doc.xpath(XPATH_RANK)
+                RAW_RANK = RAW_RANK[1].split()
+                RAW_RANK = RAW_RANK[0]
+                RAW_BRAN = doc.xpath(XPATH_BRAN)
+
+                if len(RAW_PRICE) == 0:
+                    RAW_PRICE = 'no'
+
+                data = {
+                    'ASIN': i,
+                    'NAME': RAW_NAME,
+                    'RANK': RAW_RANK,
+                    'BRAN': RAW_BRAN,
+                    'PRICE': RAW_PRICE[0]
                 }
-                fail_getByAsin.append(kap)
 
+                print 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',data
 
+                extracted_data.append(data)
+            # for article in RAW_CHECK:
+            print '===done===',i
 
+        except Exception as e:
+            print 'xx', e, url
+            kap = {
+                'head': headers,
+                'proxy': proxy,
+                'url': url,
+                'status': e,
+            }
+            fail_getByAsin.append(kap)
+            return reGetTitle(i)
+
+    except requests.exceptions.RequestException as e:  # This is the correct syntax
+        return  reGetTitle(i)
 
 if __name__ == "__main__":
     result = json.load(urllib.urlopen('dataTest.json'))
@@ -150,9 +155,6 @@ if __name__ == "__main__":
         json.dump(extracted_data, f, indent=4)
         f.close()
 
-        f = open('fail_getByAsin.json', 'w')
-        json.dump(fail_getByAsin, f, indent=4)
-        f.close()
 
 
         print 'DONE !'
