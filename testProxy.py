@@ -7,7 +7,6 @@ from exceptions import ValueError
 from time import sleep
 from threading import Thread
 import threading
-from collections import OrderedDict
 import numpy as np
 
 
@@ -54,12 +53,8 @@ def getAsin(url):
                         return getAsin(url)
 
                 else:
+                    print 'zzzz',url
                     print '=======GOOD======',RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
-                    zt = RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
-                    for zx in zt :
-                        with open('data.txt', mode='a') as f:
-                            f.write(str(zx) + '\n')
-                            f.close()
                     return RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
 
             except Exception as e:
@@ -81,10 +76,8 @@ def urlPage(num,url):
         urlShare = url + '&page=' + str(
             i)
         sleep(2)
-
         print urlShare
-
-        getAsin(urlShare)
+        Asin_data.append(getAsin(urlShare))
 
 def buidUrl(url,count):
     iz = 50
@@ -114,41 +107,40 @@ def buidUrl(url,count):
             iz = RAW_NUMPAGE
         else:
             iz = 50
-
+        iz = 2
         x = np.arange(RAW_NUMPAGE)
         num = np.array_split(x, iz)
 
     except Exception as e:  # This is the correct syntax
         print 'not page 2222', '--', proxy, headers, e
-        buidUrl(url, count)
+        return buidUrl(url, count)
+
+    print num[0] ,'-------',iz
 
     try:
-        for n in xrange(0, iz):
+        for n in xrange(0, 1):
             name = 't' + str(n) + 'v' + str(count)
-            threads.append(threading.Thread(name=name, target=urlPage, args=(num[n],url,)))
+            threads.append(threading.Thread(name=name, target=urlPage, args=(num[0],url,)))
             threads[-1].start()  # start the thread we just created
         for t in threads:
             t.join()
 
-    except Exception as e:  # This is the correct syntax
+    except requests.exceptions.RequestException as e:  # This is the correct syntax
         print 'error', e, '--', proxy, '--', headers
 
 if __name__ == "__main__":
 
     urls = [
-        'https://www.amazon.com/s/ref=sr_pg_3?rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cp_6%3AATVPDKIKX0DER&sort=date-desc-rank',
-
         'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011',
-        'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=date-desc-rank',
-        'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=review-rank',
-        'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=price-asc-rank',
-        'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=price-desc-rank'
     ]
     for i in xrange(0,len(urls)):
         count = i
         buidUrl(urls[i],count)
 
-
+    f = open('data.json', 'w')
+    # Asin_data = list(set(Asin_data))
+    json.dump(Asin_data, f, indent=4)
+    f.close()
 
     f = open('fail-data.json', 'w')
     json.dump(fail_data, f, indent=4)
