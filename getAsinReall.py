@@ -22,8 +22,7 @@ fail_data = []
 
 
 
-def getAsin():
-    url = 'https://www.amazon.com/s/ref=sr_pg_2?fst=p90x%3A1&rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cn%3A9056986011%2Cn%3A9056987011%2Ck%3At+shirt+dad+and+son&keywords=t+shirt+dad+and+son'
+def getAsin(url):
     headers = random.choice(headers_list)
     proxy = random.choice(ip_list)
     try:
@@ -57,9 +56,8 @@ def getAsin():
                 else:
                     print '=======GOOD======',RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
                     zt = RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
-
                     for kaak in zt:
-                        check_ASIN = '//*[@data-asin="' +  str(kaak) + '"]'
+                        check_ASIN = '//*[@data-asin="' + str(kaak) + '"]'
 
                         CHECK_RAW = doc.xpath(check_ASIN)
 
@@ -69,101 +67,106 @@ def getAsin():
 
                         if CHECK_RAW_cache.find(
                                 'https://images-na.ssl-images-amazon.com/images/I/41coxNoci9L._AC_UL260_SR200,260_.jpg') != -1:
-                            print 'ok'
+                            with open('data2.txt', mode='a') as f:
+                                f.write(str(kaak) + '\n')
+                                f.close()
                         if CHECK_RAW_cache.find(
                                 'https://images-na.ssl-images-amazon.com/images/I/41B7dj8jHtL._AC_UL260_SR200,260_.jpg') != -1:
-                            print 'ok'
-
-
-                    # for zx in zt :
-                    #     with open('data2.txt', mode='a') as f:
-                    #         f.write(str(zx) + '\n')
-                    #         f.close()
-
+                            with open('data2.txt', mode='a') as f:
+                                f.write(str(kaak) + '\n')
+                                f.close()
                     return RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
 
             except Exception as e:
                 print 'not xpath', proxy, headers, e
-
+                return getAsin(url)
         else:
             print 'errer', url, headers
+            return getAsin(url)
+    except Exception as e:  # This is the correct syntax
+        return getAsin(url)
+    return 'no way'
+
+
+def urlPage(num,url):
+    sleep(2)
+    for i in num:
+        if i == 0 :
+            continue
+        urlShare = url + '&page=' + str(
+            i)
+        sleep(2)
+
+        print urlShare
+
+        getAsin(urlShare)
+
+def buidUrl(url,count):
+    iz = 1
+    headers = random.choice(headers_list)
+    proxy = random.choice(ip_list)
+
+    try:
+        page = requests.get(url, headers=headers, proxies=proxy, timeout=60)
+        doc = html.fromstring(page.content)
+        XPATH_NUMPAGE = '//*[@id="pagn"]/span[6]/text()'
+        RAW_NUMPAGE = doc.xpath(XPATH_NUMPAGE)
+        if len(RAW_NUMPAGE) == 0:
+            for ipz in xrange(1,6):
+                kaka = '//*[@id="pagn"]/span[' + str(6 - ipz) + ']/a/text()'
+                RAW_NUMPAGE = doc.xpath(kaka)
+                try:
+                    if int(float(RAW_NUMPAGE[0])) :
+                        break
+                except Exception as e:
+                    continue
+
+        RAW_NUMPAGE = int(float(RAW_NUMPAGE[0]))
+
+        if 10 < RAW_NUMPAGE < 50 :
+            iz = 10
+        elif RAW_NUMPAGE < 10 :
+            iz = RAW_NUMPAGE
+        else:
+            iz = 50
+
+        x = np.arange(RAW_NUMPAGE)
+        num = np.array_split(x, iz)
 
     except Exception as e:  # This is the correct syntax
-        print 'xxxxxxxxxxxxxxxxxxx'
-    return 'no way'
-getAsin()
-#
-# def urlPage(num,url):
-#     sleep(2)
-#     urlShare = url + '&page=1'
-#     getAsin(urlShare)
-#
-# def buidUrl(url,count):
-#     iz = 1
-#     headers = random.choice(headers_list)
-#     proxy = random.choice(ip_list)
-#
-#     try:
-#         page = requests.get('https://www.amazon.com/s/ref=sr_pg_2?fst=p90x%3A1&rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cn%3A9056986011%2Cn%3A9056987011%2Ck%3At+shirt+dad+and+son&keywords=t+shirt+dad+and+son', headers=headers, proxies=proxy, timeout=60)
-#         doc = html.fromstring(page.content)
-#         XPATH_NUMPAGE = '//*[@id="pagn"]/span[6]/text()'
-#         RAW_NUMPAGE = doc.xpath(XPATH_NUMPAGE)
-#         if len(RAW_NUMPAGE) == 0:
-#             for ipz in xrange(1,6):
-#                 kaka = '//*[@id="pagn"]/span[' + str(6 - ipz) + ']/a/text()'
-#                 RAW_NUMPAGE = doc.xpath(kaka)
-#                 try:
-#                     if int(float(RAW_NUMPAGE[0])) :
-#                         break
-#                 except Exception as e:
-#                     continue
-#
-#         RAW_NUMPAGE = int(float(RAW_NUMPAGE[0]))
-#
-#         # if 10 < RAW_NUMPAGE < 50 :
-#         #     iz = 10
-#         # elif RAW_NUMPAGE < 10 :
-#         #     iz = RAW_NUMPAGE
-#         # else:
-#         #     iz = 50
-#
-#         x = np.arange(RAW_NUMPAGE)
-#         num = np.array_split(x, iz)
-#
-#     except Exception as e:  # This is the correct syntax
-#         print 'not page 2222', '--', proxy, headers, e
-#         buidUrl(url, count)
-#
-#     try:
-#         for n in xrange(0, iz):
-#             name = 't' + str(n) + 'v' + str(count)
-#             threads.append(threading.Thread(name=name, target=urlPage, args=(num[n],url,)))
-#             threads[-1].start()  # start the thread we just created
-#         for t in threads:
-#             t.join()
-#
-#     except Exception as e:  # This is the correct syntax
-#         print 'error', e, '--', proxy, '--', headers
-#
-# if __name__ == "__main__":
-#
-#     urls = [
-#         # 'https://www.amazon.com/s/ref=sr_pg_3?rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cp_6%3AATVPDKIKX0DER&sort=date-desc-rank',
-#         'https://www.amazon.com/s/ref=sr_pg_2?fst=p90x%3A1&rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cn%3A9056986011%2Cn%3A9056987011%2Ck%3At+shirt+dad+and+son&keywords=t+shirt+dad+and+son'
-#         # 'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011',
-#         # 'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=date-desc-rank',
-#         # 'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=review-rank',
-#         # 'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=price-asc-rank',
-#         # 'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=price-desc-rank'
-#     ]
-#     for i in xrange(0,len(urls)):
-#         count = i
-#         buidUrl(urls[i],count)
-#     #
-#     #
-#     #
-#     # f = open('fail-data.json', 'w')
-#     # json.dump(fail_data, f, indent=4)
-#     # f.close()
-#
-#     print 'DONE !'
+        print 'not page 2222', '--', proxy, headers, e
+        buidUrl(url, count)
+
+    try:
+        for n in xrange(0, iz):
+            name = 't' + str(n) + 'v' + str(count)
+            threads.append(threading.Thread(name=name, target=urlPage, args=(num[n],url,)))
+            threads[-1].start()  # start the thread we just created
+        for t in threads:
+            t.join()
+
+    except Exception as e:  # This is the correct syntax
+        print 'error', e, '--', proxy, '--', headers
+
+if __name__ == "__main__":
+
+    urls = [
+        # 'https://www.amazon.com/s/ref=sr_pg_3?rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cp_6%3AATVPDKIKX0DER&sort=date-desc-rank',
+        'https://www.amazon.com/s/ref=sr_pg_2?fst=p90x%3A1&rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cn%3A9056986011%2Cn%3A9056987011%2Ck%3At+shirt+dad+and+son&keywords=t+shirt+dad+and+son'
+        # 'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011',
+        # 'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=date-desc-rank',
+        # 'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=review-rank',
+        # 'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=price-asc-rank',
+        # 'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=price-desc-rank'
+    ]
+    for i in xrange(0,len(urls)):
+        count = i
+        buidUrl(urls[i],count)
+    #
+    #
+    #
+    # f = open('fail-data.json', 'w')
+    # json.dump(fail_data, f, indent=4)
+    # f.close()
+
+    print 'DONE !'
