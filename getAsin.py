@@ -57,7 +57,7 @@ def getAsin(url):
                     print '=======GOOD======',RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
                     zt = RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
                     for zx in zt :
-                        with open('data.txt', mode='a') as f:
+                        with open('data2.txt', mode='a') as f:
                             f.write(str(zx) + '\n')
                             f.close()
                     return RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
@@ -68,7 +68,7 @@ def getAsin(url):
         else:
             print 'errer', url, headers
             return getAsin(url)
-    except requests.exceptions.RequestException as e:  # This is the correct syntax
+    except Exception as e:  # This is the correct syntax
         return getAsin(url)
     return 'no way'
 
@@ -136,22 +136,22 @@ def buidUrl(url,count):
 if __name__ == "__main__":
 
     urls = [
-        'https://www.amazon.com/s/ref=sr_pg_3?rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cp_6%3AATVPDKIKX0DER&sort=date-desc-rank',
-
-        'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011',
-        'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=date-desc-rank',
-        'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=review-rank',
-        'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=price-asc-rank',
-        'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=price-desc-rank'
+        # 'https://www.amazon.com/s/ref=sr_pg_3?rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cp_6%3AATVPDKIKX0DER&sort=date-desc-rank',
+        'https://www.amazon.com/s/ref=sr_pg_2?fst=p90x%3A1&rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cn%3A9056986011%2Cn%3A9056987011%2Ck%3At+shirt+dad+and+son&keywords=t+shirt+dad+and+son'
+        # 'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011',
+        # 'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=date-desc-rank',
+        # 'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=review-rank',
+        # 'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=price-asc-rank',
+        # 'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=price-desc-rank'
     ]
     for i in xrange(0,len(urls)):
         count = i
         buidUrl(urls[i],count)
-
-
-
-    f = open('fail-data.json', 'w')
-    json.dump(fail_data, f, indent=4)
-    f.close()
+    #
+    #
+    #
+    # f = open('fail-data.json', 'w')
+    # json.dump(fail_data, f, indent=4)
+    # f.close()
 
     print 'DONE !'

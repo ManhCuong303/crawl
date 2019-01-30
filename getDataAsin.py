@@ -11,7 +11,12 @@ from threading import Thread
 import threading
 import numpy as np
 import re
-import multiprocessing.dummy as mp
+import pymongo
+from pymongo import MongoClient
+
+client = MongoClient('localhost', 27017)
+db = client.dataAsin
+coll = db['testColl']
 
 this = sys.modules[__name__] # this is now your current namespace
 extracted_data = []
@@ -105,7 +110,8 @@ def reGetTitle(i):
                     'DEC':RAW_DEC,
                     'IMG':RAW_IMG[0]
                 }
-                extracted_data.append(data)
+                coll.insert_one(data)
+
             # for article in RAW_CHECK:
 
 
@@ -125,8 +131,8 @@ def reGetTitle(i):
         return  reGetTitle(i)
 
 if __name__ == "__main__":
-    iz = 100
-    with open('data.txt', mode='r') as f:
+    iz = 90
+    with open('data2.txt', mode='r') as f:
         result = f.readlines()
         for xx in xrange(0,len(result)):
             result[xx] = re.sub('\n+', '', result[xx])
@@ -140,9 +146,7 @@ if __name__ == "__main__":
         for t in threads:
             t.join()
 
-        f = open('dataAsin.json', 'w')
-        json.dump(extracted_data, f, indent=4)
-        f.close()
+
 
         print 'DONE !'
     except requests.exceptions.RequestException as e:
