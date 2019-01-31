@@ -9,6 +9,8 @@ import urllib
 import sys
 from threading import Thread
 import threading
+import time
+import datetime
 import numpy as np
 import re
 import pymongo
@@ -16,13 +18,14 @@ from pymongo import MongoClient
 
 client = MongoClient('localhost', 27017)
 db = client.dataAsin
-coll = db['testColl']
+dataAsin = db['listAsinCache']
+dataFromAsin = db['dataFromAsin']
 
 this = sys.modules[__name__] # this is now your current namespace
 extracted_data = []
 fail_getByAsin = []
 count_asin_re = []
-textC = 'ShippingWeight:,4.8'
+textFind = 'ShippingWeight:,4.8'
 
 json_data = open('Chrome-user-agents.json').read()
 headers_list = json.loads(json_data)
@@ -33,7 +36,8 @@ def ReadAsin(dataAsins):
     headers = random.choice(headers_list)
     proxy = random.choice(ip_list)
     for listAsin in dataAsins:
-        reGetTitle(listAsin)
+
+        reGetTitle( listAsin['ASIN'])
 
 
 def getDataOk(html):
@@ -68,7 +72,7 @@ def reGetTitle(i):
 
 
 
-            if RAW_CHECK.find(textC) != -1:
+            if RAW_CHECK.find(textFind) != -1:
                 XPATH_PRICE = '//*[@id="priceblock_ourprice"]/text()'
                 XPATH_BRAN = '//*[@id="bylineInfo"]/text()'
                 XPATH_NAME = '//h1[@id="title"]//text()'
@@ -87,30 +91,50 @@ def reGetTitle(i):
                 RAW_NAME = ' '.join(''.join(RAW_NAME).split()) if RAW_NAME else None
                 RAW_RANK = doc.xpath(XPATH_RANK)
                 if len(RAW_RANK) == 0 :
-                    RAW_RANK = 'no rank'
+                    RAW_RANK = '00'
                 else:
                     RAW_RANK = RAW_RANK[1].split()
                     RAW_RANK = RAW_RANK[0]
                 RAW_BRAN = doc.xpath(XPATH_BRAN)
 
-                if len(RAW_BRAN) == 0:
-                    RAW_BRAN = doc.xpath('//*[@id="brand"]/@href')
-                    RAW_BRAN = RAW_BRAN[0].split("/",2)
-                    RAW_BRAN[0] = RAW_BRAN[1]
+                RAW_RANK = RAW_RANK.lstrip('#')
+                try:
+                    if RAW_CHECK.find('DatefirstlistedonAmazon'):
+                        BRAN_DATE = doc.xpath('//*[@id="detailBullets_feature_div"]/ul/li[5]/span/span[2]')
+                        BRAN_DATE_cache = ''
+                        for zz in BRAN_DATE:
+                            BRAN_DATE_cache = BRAN_DATE_cache + etree.tostring(zz, pretty_print=True)
+                        BRAN_DATE = BRAN_DATE_cache
+                        BRAN_DATE = re.sub('<[^<]+?>', '', BRAN_DATE)
+                        BRAN_DATE = BRAN_DATE.strip()
+                        BRAN_DATE = re.sub('\n+', '', BRAN_DATE)
+                    else :
+                        BRAN_DATE = 'noDate'
 
-                if len(RAW_PRICE) == 0:
-                    RAW_PRICE = ['no']
-                print '====GOOD====',RAW_BRAN
-                data = {
-                    'ASIN': i,
-                    'NAME': RAW_NAME,
-                    'RANK': RAW_RANK,
-                    'BRAN': RAW_BRAN[0],
-                    'PRICE': RAW_PRICE[0],
-                    'DEC':RAW_DEC,
-                    'IMG':RAW_IMG[0]
-                }
-                coll.insert_one(data)
+                    BRAN_DATE = time.mktime(datetime.datetime.strptime(BRAN_DATE,'%B %d, %Y').timetuple())
+
+                    print 'BRAN_DATE-',BRAN_DATE, len(BRAN_DATE)
+                except Exception as e:
+                    BRAN_DATE = '00000000'
+                # if len(RAW_BRAN) == 0:
+                #     RAW_BRAN = doc.xpath('//*[@id="brand"]/@href')
+                #     RAW_BRAN = RAW_BRAN[0].split("/",2)
+                #     RAW_BRAN[0] = RAW_BRAN[1]
+                #
+                # if len(RAW_PRICE) == 0:
+                #     RAW_PRICE = ['no']
+                # print '====GOOD====',RAW_BRAN
+                # data = {
+                #     'DATE':
+                #     'ASIN': i,
+                #     'NAME': RAW_NAME,
+                #     'RANK': RAW_RANK,
+                #     'BRAN': RAW_BRAN[0],
+                #     'PRICE': RAW_PRICE[0],
+                #     'DEC':RAW_DEC,
+                #     'IMG':RAW_IMG[0]
+                # }
+                # dataFromAsin.insert_one(data)
 
             # for article in RAW_CHECK:
 
@@ -131,11 +155,8 @@ def reGetTitle(i):
         return  reGetTitle(i)
 
 if __name__ == "__main__":
-    iz = 90
-    with open('data2.txt', mode='r') as f:
-        result = f.readlines()
-        for xx in xrange(0,len(result)):
-            result[xx] = re.sub('\n+', '', result[xx])
+    iz = 80
+    result = list(dataAsin.find({}))
     AsinList = np.array_split(result, iz)
     threads = []
     try:

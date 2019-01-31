@@ -5,7 +5,7 @@ import re
 
 ipdata = []
 def aki():
-    f = open('Chrome-user-agents.txt', 'r')
+    f = open('list-proxy.txt', 'r')
     data = f.readlines()
     for line in data:
         xx =  "https://" + line

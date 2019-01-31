@@ -9,9 +9,14 @@ from threading import Thread
 import threading
 from collections import OrderedDict
 import numpy as np
+import pymongo
+from pymongo import MongoClient
 
 
-
+client = MongoClient('localhost', 27017)
+db = client.dataAsin
+coll = db['listAsinCache']
+coll2 = db['listAsinReal']
 threads = []
 json_data = open('Chrome-user-agents.json').read()
 headers_list = json.loads(json_data)
@@ -58,7 +63,8 @@ def getAsin(url):
                     zt = RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
                     for kaak in zt:
                         check_ASIN = '//*[@data-asin="' + str(kaak) + '"]'
-
+                        fid = {'ASIN': kaak}
+                        showcoll = coll.count_documents(fid)
                         CHECK_RAW = doc.xpath(check_ASIN)
 
                         CHECK_RAW_cache = ''
@@ -67,14 +73,15 @@ def getAsin(url):
 
                         if CHECK_RAW_cache.find(
                                 'https://images-na.ssl-images-amazon.com/images/I/41coxNoci9L._AC_UL260_SR200,260_.jpg') != -1:
-                            with open('data2.txt', mode='a') as f:
-                                f.write(str(kaak) + '\n')
-                                f.close()
+                            coll2.insert_one(fid)
+                            if showcoll == 0:
+                                coll.insert_one(fid)
                         if CHECK_RAW_cache.find(
                                 'https://images-na.ssl-images-amazon.com/images/I/41B7dj8jHtL._AC_UL260_SR200,260_.jpg') != -1:
-                            with open('data2.txt', mode='a') as f:
-                                f.write(str(kaak) + '\n')
-                                f.close()
+                            coll2.insert_one(fid)
+                            if showcoll == 0:
+                                coll.insert_one(fid)
+
                     return RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
 
             except Exception as e:
@@ -102,39 +109,43 @@ def urlPage(num,url):
         getAsin(urlShare)
 
 def buidUrl(url,count):
-    iz = 1
+    iz = 50
     headers = random.choice(headers_list)
     proxy = random.choice(ip_list)
 
     try:
         page = requests.get(url, headers=headers, proxies=proxy, timeout=60)
-        doc = html.fromstring(page.content)
-        XPATH_NUMPAGE = '//*[@id="pagn"]/span[6]/text()'
-        RAW_NUMPAGE = doc.xpath(XPATH_NUMPAGE)
-        if len(RAW_NUMPAGE) == 0:
-            for ipz in xrange(1,6):
-                kaka = '//*[@id="pagn"]/span[' + str(6 - ipz) + ']/a/text()'
-                RAW_NUMPAGE = doc.xpath(kaka)
-                try:
-                    if int(float(RAW_NUMPAGE[0])) :
-                        break
-                except Exception as e:
-                    continue
+        if page.status_code == 200:
+            doc = html.fromstring(page.content)
+            XPATH_NUMPAGE = '//*[@id="pagn"]/span[6]/text()'
+            RAW_NUMPAGE = doc.xpath(XPATH_NUMPAGE)
+            if len(RAW_NUMPAGE) == 0:
+                for ipz in xrange(1,6):
+                    kaka = '//*[@id="pagn"]/span[' + str(6 - ipz) + ']/a/text()'
+                    RAW_NUMPAGE = doc.xpath(kaka)
+                    try:
+                        if int(float(RAW_NUMPAGE[0])) :
+                            break
+                    except Exception as e:
+                        continue
 
-        RAW_NUMPAGE = int(float(RAW_NUMPAGE[0]))
+            RAW_NUMPAGE = int(float(RAW_NUMPAGE[0]))
 
-        if 10 < RAW_NUMPAGE < 50 :
-            iz = 10
-        elif RAW_NUMPAGE < 10 :
-            iz = RAW_NUMPAGE
+            if 10 < RAW_NUMPAGE < 50 :
+                iz = 10
+            elif RAW_NUMPAGE < 10 :
+                iz = RAW_NUMPAGE
+            else:
+                iz = 50
+
+            x = np.arange(RAW_NUMPAGE)
+            num = np.array_split(x, iz)
         else:
-            iz = 50
-
-        x = np.arange(RAW_NUMPAGE)
-        num = np.array_split(x, iz)
+            print 'page.status_code',page.status_code, url, headers
+            buidUrl(url, count)
 
     except Exception as e:  # This is the correct syntax
-        print 'not page 2222', '--', proxy, headers, e
+        print 'not page 2222', '--', proxy, headers, e,url
         buidUrl(url, count)
 
     try:
@@ -151,20 +162,18 @@ def buidUrl(url,count):
 if __name__ == "__main__":
 
     urls = [
-        # 'https://www.amazon.com/s/ref=sr_pg_3?rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cp_6%3AATVPDKIKX0DER&sort=date-desc-rank',
-        'https://www.amazon.com/s/ref=sr_pg_2?fst=p90x%3A1&rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cn%3A9056986011%2Cn%3A9056987011%2Ck%3At+shirt+dad+and+son&keywords=t+shirt+dad+and+son'
-        # 'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011',
-        # 'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=date-desc-rank',
-        # 'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=review-rank',
-        # 'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=price-asc-rank',
-        # 'https://www.amazon.com/s/ref=sr_pg_2?fst=as%3Aoff&rh=n%3A7141123011%2Cn%3A7147441011%2Cn%3A1040658%2Cn%3A2476517011%2Cn%3A1045624%2Cp_n_feature_browse-bin%3A368722011&sort=price-desc-rank'
+        'https://www.amazon.com/s/ref=sr_pg_2?fst=p90x%3A1&rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cn%3A9056986011%2Cn%3A9056987011%2Ck%3At+shirt+dad+and+son&keywords=t+shirt+dad+and+son',
+        'https://www.amazon.com/s/ref=sr_pg_3?fst=p90x%3A1&rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cn%3A9056986011%2Cn%3A9056987011%2Ck%3At+shirt+dad+and+son&sort=price-asc-rank&keywords=t+shirt+dad+and+son',
+        'https://www.amazon.com/s/ref=sr_pg_3?fst=p90x%3A1&rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cn%3A9056986011%2Cn%3A9056987011%2Ck%3At+shirt+dad+and+son&sort=price-desc-rank&keywords=t+shirt+dad+and+son',
+        'https://www.amazon.com/s/ref=sr_pg_3?fst=p90x%3A1&rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cn%3A9056986011%2Cn%3A9056987011%2Ck%3At+shirt+dad+and+son&sort=review-rank&keywords=t+shirt+dad+and+son',
+        'https://www.amazon.com/s/ref=sr_pg_2?fst=p90x%3A1&rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cn%3A9056986011%2Cn%3A9056987011%2Ck%3At+shirt+dad+and+son&sort=date-desc-rank&keywords=t+shirt+dad+and+son',
     ]
     for i in xrange(0,len(urls)):
         count = i
         buidUrl(urls[i],count)
-    #
-    #
-    #
+
+
+
     # f = open('fail-data.json', 'w')
     # json.dump(fail_data, f, indent=4)
     # f.close()
