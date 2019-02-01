@@ -4,7 +4,7 @@ import datetime
 
 client = MongoClient('localhost', 27017)
 db = client.dataAsin
-listAsinReal = db['listAsinReal']
+dataFromAsin = db['dataFromAsin']
 listAsinCache = db['listAsinCache']
 
 post = {"author": "Mike",
@@ -14,17 +14,14 @@ post = {"author": "Mike",
 
 # coll.insert_one(post)
 kake = []
-listAsinReal = listAsinReal.find({})
+
 listAsinCache = listAsinCache.count_documents({})
+dataFromAsin = dataFromAsin.count_documents({})
 
 # for real in listAsinReal:
-for real in listAsinReal:
-    realA = real['ASIN']
-    if kake.count(realA) == 0:
-        kake.append(realA)
-print len(kake)
 
-print 'listAsinReal',listAsinReal,'listAsinCache',listAsinCache
+
+print 'dataFromAsin',dataFromAsin,'listAsinCache',listAsinCache
 
 #
 # db.getCollection('listAsinCache').aggregate([

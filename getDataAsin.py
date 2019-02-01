@@ -20,6 +20,8 @@ client = MongoClient('localhost', 27017)
 db = client.dataAsin
 dataAsin = db['listAsinCache']
 dataFromAsin = db['dataFromAsin']
+rankForAsin = db['rankForAsin']
+errorAsin = db['errorAsin']
 
 this = sys.modules[__name__] # this is now your current namespace
 extracted_data = []
@@ -48,6 +50,7 @@ def reGetTitle(i):
     headers = random.choice(headers_list)
     proxy = random.choice(ip_list)
     try:
+        sleep(2)
         page = requests.get(url, headers=headers, proxies=proxy, timeout=30)
         try:
             doc = html.fromstring(page.content)
@@ -95,6 +98,7 @@ def reGetTitle(i):
                 else:
                     RAW_RANK = RAW_RANK[1].split()
                     RAW_RANK = RAW_RANK[0]
+
                 RAW_BRAN = doc.xpath(XPATH_BRAN)
 
                 RAW_RANK = RAW_RANK.lstrip('#')
@@ -113,31 +117,41 @@ def reGetTitle(i):
 
                     BRAN_DATE = time.mktime(datetime.datetime.strptime(BRAN_DATE,'%B %d, %Y').timetuple())
 
-                    print 'BRAN_DATE-',BRAN_DATE, len(BRAN_DATE)
                 except Exception as e:
                     BRAN_DATE = '00000000'
-                # if len(RAW_BRAN) == 0:
-                #     RAW_BRAN = doc.xpath('//*[@id="brand"]/@href')
-                #     RAW_BRAN = RAW_BRAN[0].split("/",2)
-                #     RAW_BRAN[0] = RAW_BRAN[1]
-                #
-                # if len(RAW_PRICE) == 0:
-                #     RAW_PRICE = ['no']
-                # print '====GOOD====',RAW_BRAN
-                # data = {
-                #     'DATE':
-                #     'ASIN': i,
-                #     'NAME': RAW_NAME,
-                #     'RANK': RAW_RANK,
-                #     'BRAN': RAW_BRAN[0],
-                #     'PRICE': RAW_PRICE[0],
-                #     'DEC':RAW_DEC,
-                #     'IMG':RAW_IMG[0]
-                # }
-                # dataFromAsin.insert_one(data)
 
-            # for article in RAW_CHECK:
+                if len(RAW_BRAN) == 0:
+                    RAW_BRAN = doc.xpath('//*[@id="brand"]/@href')
+                    RAW_BRAN = RAW_BRAN[0].split("/",2)
+                    RAW_BRAN[0] = RAW_BRAN[1]
 
+                if len(RAW_PRICE) == 0:
+                    RAW_PRICE = ['no']
+                print '====GOOD====',RAW_BRAN,url
+                data = {
+                    'ASIN': i,
+                    'NAME': RAW_NAME,
+                    'BRAN': RAW_BRAN[0],
+                    'PRICE': RAW_PRICE[0],
+                    'DEC':RAW_DEC,
+                    'IMG':RAW_IMG[0],
+                    'DATE': BRAN_DATE,
+                    'DATE_CRATED': int(time.mktime(time.localtime()))
+                }
+                dataFromAsin.insert_one(data)
+                rankForAsin.insert_one({
+                    'ASIN':i,
+                    'RANKs':[{
+                        'time':int(time.mktime(time.localtime())),
+                        'RANK':RAW_RANK
+                    }]
+                })
+            else:
+                print '==========SORRY=============',url
+                errorAsin.insert_one({
+                    'ASIN':i,
+                    'proxy':proxy
+                })
 
         except Exception as e:
             print 'xx', e, url
@@ -147,28 +161,25 @@ def reGetTitle(i):
                 'url': url,
                 'status': e,
             }
-            fail_getByAsin.append(kap)
             return reGetTitle(i)
-        count_asin_re.append(url)
-        print "===Request=== ",len(count_asin_re) ,url
     except requests.exceptions.RequestException as e:  # This is the correct syntax
         return  reGetTitle(i)
 
 if __name__ == "__main__":
     iz = 80
     result = list(dataAsin.find({}))
+    print 'len(result)',len(result)
     AsinList = np.array_split(result, iz)
     threads = []
     try:
         for n in range(0, iz):
             name ='t'+ str(n)
+            sleep(2)
             threads.append(threading.Thread(name=name,target=ReadAsin, args=(AsinList[n],)))
             threads[-1].start()  # start the thread we just created
         for t in threads:
+            print t
             t.join()
-
-
-
         print 'DONE !'
     except requests.exceptions.RequestException as e:
         print ("error",e)
