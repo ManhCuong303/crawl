@@ -166,7 +166,7 @@ def reGetTitle(i):
         return  reGetTitle(i)
 
 if __name__ == "__main__":
-    iz = 80
+    iz = 100
     result = list(dataAsin.find({}))
     print 'len(result)',len(result)
     AsinList = np.array_split(result, iz)
