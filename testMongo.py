@@ -1,27 +1,40 @@
+from lxml import html, etree
+import csv, os, json
+import random
+import requests
+import json
+from exceptions import ValueError
+from time import sleep
+import urllib
+import sys
+from threading import Thread
+import threading
+import time
+import datetime
+import numpy as np
+import re
 import pymongo
 from pymongo import MongoClient
-import datetime
 
-client = MongoClient('localhost', 27017)
-db = client.dataAsin
-dataFromAsin = db['dataFromAsin']
-listAsinCache = db['listAsinCache']
+ip_data = open('ip_list.json').read()
 
-post = {"author": "Mike",
-        "text": "My first blog post!",
-         "tags": ["mongodb", "python", "pymongo"],
-        "date": datetime.datetime.utcnow()}
+ip_list = json.loads(ip_data)
 
-# coll.insert_one(post)
-kake = []
+proxy = random.choice(ip_list)
 
-listAsinCache = listAsinCache.count_documents({})
-dataFromAsin = dataFromAsin.count_documents({})
+sh = ip_list.index([{"https": "https://222.124.26.37:36910"},{"status": 0}])
 
-# for real in listAsinReal:
+print len(ip_list)
 
+del ip_list[sh]
+print len(ip_list)
 
-print 'dataFromAsin',dataFromAsin,'listAsinCache',listAsinCache
+fax = open('ip_list.json', 'w')
+json.dump(ip_list, fax, indent=4)
+fax.close()
+
+# fax = open('ip_list.json', 'w')
+# json.dumps(ip_list, fax, indent=4)
 
 #
 # db.getCollection('listAsinCache').aggregate([
