@@ -9,10 +9,10 @@ ipdata = []
 aka = {}
 client = MongoClient('localhost', 27017)
 db = client.dataAsin
-dataAsin = db['iplist']
-
+dataAsin = db['ipUSList']
+dataAsin.remove({})
 def aki():
-    f = open('list-proxy.txt', 'r')
+    f = open('ipUS.txt', 'r')
     data = f.readlines()
     print len(data)
     id = 0
@@ -24,12 +24,9 @@ def aki():
             fid = {'data':[aka,{'status':0}]}
             showcoll = dataAsin.count_documents(fid)
             if showcoll == 0 :
-                fid = {'data': [aka, {'status': 5}],'id':id}
+                fid = {'data': [aka, {'status': 0}],'id':id,'geted':'false'}
                 dataAsin.insert_one(fid)
                 id += 1
-                if i == 0:
-                    print i
             else:
                 print aka
-
 aki()

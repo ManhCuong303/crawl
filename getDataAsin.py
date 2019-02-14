@@ -21,7 +21,6 @@ db = client.dataAsin
 dataAsin = db['listAsinCache']
 dataFromAsin = db['dataFromAsin']
 rankForAsin = db['rankForAsin']
-rankForAsin = db['rankForAsin']
 iplist = db['iplist']
 
 this = sys.modules[__name__] # this is now your current namespace
@@ -48,10 +47,10 @@ def reGetTitle(i):
     headers = random.choice(headers_list)
     idRandom = random.randint(0,countIplist)
     Getproxy = list(iplist.find({'id':idRandom}))
-    print Getproxy
+
     proxy = Getproxy[0]['data']
     proxyAdd = proxy
-    print proxy
+
 
     if proxy[1]['status'] + 1 > 4:
         iplist.remove({'id':idRandom})
@@ -59,8 +58,6 @@ def reGetTitle(i):
     else:
         proxy[1]['status'] = proxy[1]['status'] + 1
         iplist.update({'id': idRandom}, {'$set': {"data": proxy}})
-
-
         try:
             print '-----------',proxy[0]
             page = requests.get(url, headers=headers, proxies=proxy[0], timeout=30)

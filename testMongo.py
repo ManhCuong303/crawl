@@ -16,7 +16,7 @@ import re
 import pymongo
 from pymongo import MongoClient
 
-ip_data = open('ip_list.json').read()
+ip_data = open('Chrome-user-agents.txt').read()
 
 ip_list = json.loads(ip_data)
 
@@ -29,11 +29,11 @@ print len(ip_list)
 del ip_list[sh]
 print len(ip_list)
 
-fax = open('ip_list.json', 'w')
+fax = open('Chrome-user-agents.txt', 'w')
 json.dump(ip_list, fax, indent=4)
 fax.close()
 
-# fax = open('ip_list.json', 'w')
+# fax = open('Chrome-user-agents.txt', 'w')
 # json.dumps(ip_list, fax, indent=4)
 
 #

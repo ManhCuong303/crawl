@@ -10,28 +10,32 @@ import threading
 from collections import OrderedDict
 import numpy as np
 import pymongo
+import time
+import datetime
 from pymongo import MongoClient
 
 
 client = MongoClient('localhost', 27017)
 db = client.dataAsin
-coll = db['listAsinCache']
+coll = db['listAsinCache2']
 coll2 = db['listAsinReal']
 threads = []
 json_data = open('Chrome-user-agents.json').read()
 headers_list = json.loads(json_data)
-ip_data = open('ip_list.json').read()
-ip_list = json.loads(ip_data)
+ip_list  = db['ipUSList']
 Asin_data = []
 fail_data = []
 
 
-
 def getAsin(url):
     headers = random.choice(headers_list)
-    proxy = random.choice(ip_list)
+    countIplist = ip_list.count({})
+    idRandom = random.randint(0, countIplist)
+    Getproxy = list(ip_list.find({'id': idRandom}))
+    proxy = Getproxy[0]['data']
+    proxyAdd = proxy
     try:
-        page = requests.get(url, headers=headers, proxies=proxy, timeout=60)
+        page = requests.get(url, headers=headers, proxies=proxy[0], timeout=60)
         if page.status_code == 200:
             try:
                 doc = html.fromstring(page.content)
@@ -59,7 +63,6 @@ def getAsin(url):
                         return getAsin(url)
 
                 else:
-                    print '=======GOOD======',RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
                     zt = RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
                     for kaak in zt:
                         check_ASIN = '//*[@data-asin="' + str(kaak) + '"]'
@@ -71,19 +74,24 @@ def getAsin(url):
                         for rawdec in CHECK_RAW:
                             CHECK_RAW_cache = CHECK_RAW_cache + etree.tostring(rawdec, pretty_print=True)
 
+                        fid = {'ASIN': kaak, 'geted': 'false', 'date': int(time.mktime(time.localtime())),'status': 'true'}
+
                         if CHECK_RAW_cache.find(
                                 'https://images-na.ssl-images-amazon.com/images/I/41coxNoci9L._AC_UL260_SR200,260_.jpg') != -1:
+
                             coll2.insert_one(fid)
                             if showcoll == 0:
+                                print '=======GOOD======', RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
                                 coll.insert_one(fid)
+
                         if CHECK_RAW_cache.find(
                                 'https://images-na.ssl-images-amazon.com/images/I/41B7dj8jHtL._AC_UL260_SR200,260_.jpg') != -1:
                             coll2.insert_one(fid)
                             if showcoll == 0:
+                                print '=======GOOD======', RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
                                 coll.insert_one(fid)
 
                     return RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
-
             except Exception as e:
                 print 'not xpath', proxy, headers, e
                 return getAsin(url)
@@ -109,12 +117,17 @@ def urlPage(num,url):
         getAsin(urlShare)
 
 def buidUrl(url,count):
-    iz = 50
+    iz = 5
     headers = random.choice(headers_list)
-    proxy = random.choice(ip_list)
+    countIplist = ip_list.count({})
+    idRandom = random.randint(0, countIplist)
+    Getproxy = list(ip_list.find({'id': idRandom}))
+    proxy = Getproxy[0]['data']
+    proxyAdd = proxy
 
     try:
-        page = requests.get(url, headers=headers, proxies=proxy, timeout=60)
+        print proxy[0]
+        page = requests.get(url, proxies=proxy[0],headers=headers, timeout=60)
         if page.status_code == 200:
             doc = html.fromstring(page.content)
             XPATH_NUMPAGE = '//*[@id="pagn"]/span[6]/text()'
@@ -137,7 +150,6 @@ def buidUrl(url,count):
                 iz = RAW_NUMPAGE
             else:
                 iz = 50
-
             x = np.arange(RAW_NUMPAGE)
             num = np.array_split(x, iz)
         else:
@@ -162,20 +174,10 @@ def buidUrl(url,count):
 if __name__ == "__main__":
 
     urls = [
-        'https://www.amazon.com/s/ref=sr_pg_2?fst=p90x%3A1&rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cn%3A9056986011%2Cn%3A9056987011%2Ck%3At+shirt+dad+and+son&keywords=t+shirt+dad+and+son',
-        'https://www.amazon.com/s/ref=sr_pg_3?fst=p90x%3A1&rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cn%3A9056986011%2Cn%3A9056987011%2Ck%3At+shirt+dad+and+son&sort=price-asc-rank&keywords=t+shirt+dad+and+son',
-        'https://www.amazon.com/s/ref=sr_pg_3?fst=p90x%3A1&rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cn%3A9056986011%2Cn%3A9056987011%2Ck%3At+shirt+dad+and+son&sort=price-desc-rank&keywords=t+shirt+dad+and+son',
-        'https://www.amazon.com/s/ref=sr_pg_3?fst=p90x%3A1&rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cn%3A9056986011%2Cn%3A9056987011%2Ck%3At+shirt+dad+and+son&sort=review-rank&keywords=t+shirt+dad+and+son',
-        'https://www.amazon.com/s/ref=sr_pg_2?fst=p90x%3A1&rh=n%3A7141123011%2Cn%3A7147445011%2Cn%3A12035955011%2Cn%3A9103696011%2Cn%3A9056985011%2Cn%3A9056986011%2Cn%3A9056987011%2Ck%3At+shirt+dad+and+son&sort=date-desc-rank&keywords=t+shirt+dad+and+son',
-    ]
+        'https://www.amazon.com/b/ref=s9_acss_bw_cg_mshirnav_2b1_w?node=1045630&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-11&pf_rd_r=T6ESNY59FANBDY4A72SE&pf_rd_t=101&pf_rd_p=6fd21888-78be-5af4-b4b0-0244625f0f0a&pf_rd_i=2476517011'
+        ]
     for i in xrange(0,len(urls)):
         count = i
         buidUrl(urls[i],count)
-
-
-
-    # f = open('fail-data.json', 'w')
-    # json.dump(fail_data, f, indent=4)
-    # f.close()
 
     print 'DONE !'
