@@ -23,6 +23,7 @@ threads = []
 json_data = open('Chrome-user-agents.json').read()
 headers_list = json.loads(json_data)
 ip_list  = db['ipUSList']
+AllAsin = db['AllAsin']
 Asin_data = []
 fail_data = []
 
@@ -30,7 +31,7 @@ fail_data = []
 def getAsin(url):
     headers = random.choice(headers_list)
     countIplist = ip_list.count({})
-    idRandom = random.randint(0, countIplist)
+    idRandom = random.randint(0, countIplist - 1)
     Getproxy = list(ip_list.find({'id': idRandom}))
     proxy = Getproxy[0]['data']
     proxyAdd = proxy
@@ -48,22 +49,14 @@ def getAsin(url):
                 RAW_ASIN2 = doc.xpath(XPATH_ASIN2)
                 RAW_ASIN3 = doc.xpath(XPATH_ASIN3)
                 RAW_ASIN4 = doc.xpath(XPATH_ASIN4)
+                RAW_ASIN5 = doc.xpath('//*[@id="search"]/div[1]/div[2]/div/span[3]/div[1]/div/@data-asin')
 
-                if len(RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4) == 0:
-                    RAW_ASIN = doc.xpath('//*[@id="search"]/div[1]/div[2]/div/span[3]/div[1]/div/@data-asin')
-                    if len(RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4) == 0:
-                        print '=======FAIL=======',headers,proxy,RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
-                        kap = {
-                            'headers': headers,
-                            'proxy': proxy,
-                            'url': url,
-                            'status': "dataAsin = 0, capcha",
-                        }
-                        fail_data.append(kap)
-                        return getAsin(url)
+                zt = RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4 + RAW_ASIN5
 
-                else:
-                    zt = RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
+                if len(zt) == 0:
+                    print '=======FAIL=======',headers,proxy,RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
+                    return 'FAIL'
+                elif len(zt) != 0 and len(RAW_ASIN5) == 0 :
                     for kaak in zt:
                         check_ASIN = '//*[@data-asin="' + str(kaak) + '"]'
                         fid = {'ASIN': kaak}
@@ -74,7 +67,8 @@ def getAsin(url):
                         for rawdec in CHECK_RAW:
                             CHECK_RAW_cache = CHECK_RAW_cache + etree.tostring(rawdec, pretty_print=True)
 
-                        fid = {'ASIN': kaak, 'geted': 'false', 'date': int(time.mktime(time.localtime())),'status': 'true'}
+                        fid = {'ASIN': kaak, 'geted': 'false', 'date': int(time.mktime(time.localtime())),
+                               'status': 'true'}
 
                         if CHECK_RAW_cache.find(
                                 'https://images-na.ssl-images-amazon.com/images/I/41coxNoci9L._AC_UL260_SR200,260_.jpg') != -1:
@@ -90,8 +84,17 @@ def getAsin(url):
                             if showcoll == 0:
                                 print '=======GOOD======', RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
                                 coll.insert_one(fid)
+                    return RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4 + RAW_ASIN5
+                else:
+                    for kaak in zt:
+                        fid = {'ASIN': kaak}
+                        showcoll = coll.count_documents(fid)
+                        fid = {'ASIN': kaak, 'geted': 'false', 'date': int(time.mktime(time.localtime())),
+                               'status': 'true'}
+                        if showcoll == 0:
+                            print '=======GOOD======', RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
+                            AllAsin.insert_one(fid)
 
-                    return RAW_ASIN + RAW_ASIN2 + RAW_ASIN3 + RAW_ASIN4
             except Exception as e:
                 print 'not xpath', proxy, headers, e
                 return getAsin(url)
@@ -116,8 +119,12 @@ def urlPage(num,url):
 
         getAsin(urlShare)
 
+def test(num,url):
+    return 'sss',num,url
+
 def buidUrl(url,count):
-    iz = 5
+
+    iz = 50
     headers = random.choice(headers_list)
     countIplist = ip_list.count({})
     idRandom = random.randint(0, countIplist)
@@ -127,6 +134,9 @@ def buidUrl(url,count):
 
     try:
         print proxy[0]
+
+        sleep(2)
+
         page = requests.get(url, proxies=proxy[0],headers=headers, timeout=60)
         if page.status_code == 200:
             doc = html.fromstring(page.content)
@@ -141,6 +151,8 @@ def buidUrl(url,count):
                             break
                     except Exception as e:
                         continue
+            if len(RAW_NUMPAGE) == 0 :
+                RAW_NUMPAGE = doc.xpath('//li[@class="a-disabled"]/text()')
 
             RAW_NUMPAGE = int(float(RAW_NUMPAGE[0]))
 
@@ -150,8 +162,17 @@ def buidUrl(url,count):
                 iz = RAW_NUMPAGE
             else:
                 iz = 50
+            iz = 10
             x = np.arange(RAW_NUMPAGE)
             num = np.array_split(x, iz)
+
+            for n in xrange(0, iz):
+                name = 't' + str(n) + 'v' + str(count)
+                threads.append(threading.Thread(name=name, target=urlPage, args=(num[n], url,)))
+                threads[-1].start()  # start the thread we just created
+            for t in threads:
+                t.join()
+
         else:
             print 'page.status_code',page.status_code, url, headers
             buidUrl(url, count)
@@ -160,24 +181,20 @@ def buidUrl(url,count):
         print 'not page 2222', '--', proxy, headers, e,url
         buidUrl(url, count)
 
-    try:
-        for n in xrange(0, iz):
-            name = 't' + str(n) + 'v' + str(count)
-            threads.append(threading.Thread(name=name, target=urlPage, args=(num[n],url,)))
-            threads[-1].start()  # start the thread we just created
-        for t in threads:
-            t.join()
-
-    except Exception as e:  # This is the correct syntax
-        print 'error', e, '--', proxy, '--', headers
 
 if __name__ == "__main__":
 
     urls = [
-        'https://www.amazon.com/b/ref=s9_acss_bw_cg_mshirnav_2b1_w?node=1045630&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-11&pf_rd_r=T6ESNY59FANBDY4A72SE&pf_rd_t=101&pf_rd_p=6fd21888-78be-5af4-b4b0-0244625f0f0a&pf_rd_i=2476517011'
-        ]
+        'https://www.amazon.com/s?k=t-shirts+dad+and+son&i=fashion&s=price-asc-rank&dc&qid=1550207257&ref=sr_pg_2',
+        'https://www.amazon.com/s?k=t-shirts+dad+and+son&i=fashion&s=relevancerank&dc&qid=1550207306&ref=sr_pg_2',
+        'https://www.amazon.com/s?k=t-shirts+dad+and+son&i=fashion&s=price-desc-rank&dc&qid=1550207351&ref=sr_pg_2',
+        'https://www.amazon.com/s?k=t-shirts+dad+and+son&i=fashion&s=review-rank&dc&qid=1550207376&ref=sr_pg_2',
+        'https://www.amazon.com/s?k=t-shirts+dad+and+son&i=fashion&s=date-desc-rank&dc&qid=1550207404&ref=sr_pg_2',
+    ]
     for i in xrange(0,len(urls)):
         count = i
+        print 'zzzzzz', urls[i]
         buidUrl(urls[i],count)
+
 
     print 'DONE !'
