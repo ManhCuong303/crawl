@@ -190,7 +190,15 @@ if __name__ == "__main__":
         'https://www.amazon.com/s?k=t-shirts+dad+and+son&i=fashion&s=price-desc-rank&dc&qid=1550207351&ref=sr_pg_2',
         'https://www.amazon.com/s?k=t-shirts+dad+and+son&i=fashion&s=review-rank&dc&qid=1550207376&ref=sr_pg_2',
         'https://www.amazon.com/s?k=t-shirts+dad+and+son&i=fashion&s=date-desc-rank&dc&qid=1550207404&ref=sr_pg_2',
+
+        # 'https://www.amazon.com/s?k=t+shirt+mom+and+son&i=fashion&s=price-asc-rank&dc&qid=1550207257&ref=sr_pg_2',
+        # 'https://www.amazon.com/s?k=t+shirt+mom+and+son&i=fashion&s=relevancerank&dc&qid=1550207306&ref=sr_pg_2',
+        # 'https://www.amazon.com/s?k=t+shirt+mom+and+son&i=fashion&s=price-desc-rank&dc&qid=1550207351&ref=sr_pg_2',
+        # 'https://www.amazon.com/s?k=t+shirt+mom+and+son&i=fashion&s=review-rank&dc&qid=1550207376&ref=sr_pg_2',
+        # 'https://www.amazon.com/s?k=t+shirt+mom+and+son&i=fashion&s=date-desc-rank&dc&qid=1550207404&ref=sr_pg_2',
     ]
+
+
     for i in xrange(0,len(urls)):
         count = i
         print 'zzzzzz', urls[i]
