@@ -53,7 +53,7 @@ def reGetTitle(i):
 
 
     if proxy[1]['status'] + 1 > 4:
-        iplist.remove({'id':idRandom})
+        # iplist.remove({'id':idRandom})
         reGetTitle(i)
     else:
         proxy[1]['status'] = proxy[1]['status'] + 1
@@ -162,12 +162,7 @@ def reGetTitle(i):
 
             except Exception as e:
                 print 'xx', e, url
-                kap = {
-                    'head': headers,
-                    'proxy': proxy,
-                    'url': url,
-                    'status': e,
-                }
+
                 return reGetTitle(i)
         except requests.exceptions.RequestException as e:  # This is the correct syntax
             return  reGetTitle(i)
